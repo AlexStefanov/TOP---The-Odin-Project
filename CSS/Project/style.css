@@ -1,0 +1,131 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar Part */
+.header {
+    background-color: #1F2937;
+}
+
+.top-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+}
+a:hover{
+    background-color:yellow;
+}
+.header-link{
+    display: flex;
+    gap: 23px;
+}
+
+.head-mid{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro{
+    flex-basis: 40%;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 48px;
+    color:white;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-left: 170px;
+    margin-bottom: 10px;
+    display:flex;
+    color:black;
+}
+
+button {
+    border-style:solid;
+    border-radius: 25px;
+    border-color:gray;
+    padding: 10px;
+    cursor: pointer;
+    border-color:#3882F6;
+    background-color: #3882F6;
+    font-weight: bold;
+    color:white;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-right:20px;
+}
+
+.placeholder{
+    display:flex;
+    border-style:solid;
+    border-color: gray;
+    background-color:gray;
+    color:white;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-right: 400px;
+    width:400px;
+}
+
+.mid {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.random-info{
+    display:flex;
+    padding-top:40px;
+    gap: 5px;
+    align-items:center;
+}
+
+.square {
+    margin-top:80px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.footy {
+    height:300px;
+    text-align:center;
+    background-color: gray;
+}
+.message{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis:25%;
+    padding: 50px 50px;
+    color: white;
+    font-size: 36px;
+    font-style: italic; 
+    padding:70px;
+}
+
